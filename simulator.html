@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>RISC-V Simulator</title>
+
+    <!-- JS -->
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="node_modules/golden-layout/dist/goldenlayout.min.js"></script>
+    <script src="node_modules/monaco-editor/min/vs/loader.js"></script>
+    <script src="bundle.js"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="node_modules/golden-layout/src/css/goldenlayout-base.css"/>
+    <link rel="stylesheet" type="text/css" href="node_modules/golden-layout/src/css/goldenlayout-light-theme.css" />
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Custom styles for this template -->
+    <style>
+      body {
+        padding-top: 54px;
+      }
+      @media (min-width: 992px) {
+        body {
+          padding-top: 56px;
+        }
+      }
+
+    </style>
+
+  </head>
+  <body>
+
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-sm">
+          <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+              <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                      <a class="nav-link" href="http://ascslab.org/research/briscv/index.html">BRISC-V Home</a>
+                  </li>
+              </ul>
+          </div>
+          <!--<div class="mx-auto order-0">-->
+          <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+              <a class="navbar-brand mx-auto nav-link" href="./simulator.html">BRISC-V Simulator</a>
+          </div>
+          <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+              <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active">
+                      <a class="nav-link" href="./manual.html">Manual &amp Examples</a>
+                  </li>
+              </ul>
+          </div>
+      </nav>
+
+      <!-- Page Content -->
+      <div id="main" class="container-fluid">
+
+          <div id="top_row" class="row">
+              <div class="col-4 text-center">
+                  <img id="emulator_logo" class="img-fluid" src="images/simulator_logo.svg" alt="Emulator logo">
+              </div>
+
+              <div class="col-4 text-center">
+              </div>
+
+              <div class="col-4 text-center">
+                  <a href="http://ascslab.org">
+                      <img id="logo" class="img-fluid float-right" src="images/logo-small.png" alt="Logo">
+                  </a>
+              </div>
+          </div>
+
+          <!-- GoldenLayout -->
+          <div id="gl_wrapper">
+          </div>
+      </div>
+
+  </body>
+
+</html>
